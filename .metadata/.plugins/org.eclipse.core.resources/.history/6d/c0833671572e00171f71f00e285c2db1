@@ -1,0 +1,26 @@
+package test1;
+
+public class Student extends PersonInfo{
+	int level, num;
+	String major;
+
+	Student(String name, String address, int num, int level, String major) {
+		super(name, address);
+		this.level=level;
+		this.major=major;
+		this.num=num;
+		
+	}
+
+	public int getLevel() {
+		return level;
+	}
+
+	public int getNum() {
+		return num;
+	}
+
+	public String getMajor() {
+		return major;
+	}
+}

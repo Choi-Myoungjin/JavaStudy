@@ -1,0 +1,10 @@
+package test1;
+
+public class Student {
+	int level,num;
+	String major;
+	
+	public Student(String name, String address, int num, int level, String major) {
+		
+	}
+}

@@ -1,0 +1,21 @@
+package test1;
+
+public class Main {
+	public static void main(String[] args) {
+		Student[] student = new Student[] { new Student("홍길동", "대전광역시", "1234 - 567890", 2, "경제"),
+				new Student("유재석", "세종시", "1234 - 123456", 1, "컴퓨터") };
+
+		Staff[] staff = new Staff[] { new Staff("하하", "서울", "교무부", "대리"), new Staff("박명수", "인천", "행정", "과장") };
+
+		
+		///////전체학생출력////
+		System.out.println("	학생목록");
+		for (int i = 0; i < student.length; i++) {
+			student[i].StudentPrint();
+		}
+		
+		////전체 교직원 목록///
+		System.out.println(" 	교직원목록");
+	}
+
+}

@@ -1,0 +1,10 @@
+package test1;
+
+import test1.PersonInfo;
+
+public class Staff {
+	String depert,rank;
+	public Staff(String name,String address, String depert, String rank) {
+	
+	}
+}

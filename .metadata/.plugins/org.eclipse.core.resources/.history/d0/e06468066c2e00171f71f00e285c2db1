@@ -1,0 +1,42 @@
+package test1;
+
+public class Student extends PersonInfo {
+	int level;
+	String major, num;
+
+	Student(String name, String address, String num, int level, String major) {
+		super(name, address);
+		this.level = level;
+		this.major = major;
+		this.num = num;
+
+	}
+
+	public int getLevel() {
+		return level;
+	}
+
+	public String getNum() {
+		return num;
+	}
+
+	public String getMajor() {
+		return major;
+	}
+
+	public void StudentPrint() {
+		System.out.println(getName() + "  /  " + getAddress() + "  /  " + getNum() + "  /  " + getLevel() + "ÇÐ³â"
+				+ "  /  " + getMajor());
+	}
+
+	public void StudentNumber(String str1)
+	{
+		for(int i = 0 ; i< getName().length(); i++)
+		{
+		if(str1.equals(getName()))
+		{
+			StudentPrint();
+		}
+		}
+	}
+}

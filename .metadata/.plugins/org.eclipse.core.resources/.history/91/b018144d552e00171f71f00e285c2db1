@@ -1,0 +1,18 @@
+package test1;
+
+public class PersonInfo {
+	String name, address;
+
+	private PersonInfo(String name, String address) {
+		
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+	
+}
