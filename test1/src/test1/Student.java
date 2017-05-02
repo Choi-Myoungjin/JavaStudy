@@ -3,7 +3,8 @@ package test1;
 public class Student extends PersonInfo {
 	int level;
 	String major, num;
-
+	int test;
+	
 	Student(String name, String address, String num, int level, String major) {
 		super(name, address);
 		this.level = level;
