@@ -39,4 +39,12 @@ public class CVMtaboco implements IMenu {
 		}
 	}
 
+	public CStuff[] getCstuff1() {
+		return cstuff1;
+	}
+
+	public void setCstuff1(CStuff[] cstuff1) {
+		this.cstuff1 = cstuff1;
+	}
+
 }

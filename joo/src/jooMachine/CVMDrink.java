@@ -10,6 +10,14 @@ public class CVMDrink implements IMenu {
 		this.cstuff = cstuff;
 	}
 
+	public CStuff[] getCstuff() {
+		return cstuff;
+	}
+
+	public void setCstuff(CStuff[] cstuff) {
+		this.cstuff = cstuff;
+	}
+
 	@Override
 	public void Menu() {
 		int num;

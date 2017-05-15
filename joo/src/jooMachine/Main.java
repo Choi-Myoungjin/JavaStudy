@@ -10,8 +10,8 @@ public class Main {
 				new CStuff("딸기에몽", 1200) };
 		CStuff[] taboco = new CStuff[] { new CStuff("더원", 4500), new CStuff("말보로", 1500), new CStuff("디스", 1200) };
 
-		CVMDrink drink1 = new CVMDrink(drink);
-		CVMtaboco tabaco1 = new CVMtaboco(taboco);
+		IMenu drink1 = new CVMDrink(drink);
+		IMenu tabaco1 = new CVMtaboco(taboco);
 
 		while (true) {
 			try {
